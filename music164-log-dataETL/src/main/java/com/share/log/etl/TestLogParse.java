@@ -12,7 +12,7 @@ import java.util.Map;
 /**
  * @user: share
  * @date: 2019/2/19
- * @description: 测试聚合日志解析
+ * @description: 测试日志是否能解析成功
  */
 public class TestLogParse {
 
