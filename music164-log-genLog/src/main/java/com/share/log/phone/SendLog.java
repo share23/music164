@@ -43,8 +43,8 @@ public class SendLog {
             os.flush();
             os.close();
             System.out.println(conn.getResponseCode());
-            Thread.sleep(3000);
-
+//            Thread.sleep(3000);
+//            Thread.sleep(500);
         }
 
     }
