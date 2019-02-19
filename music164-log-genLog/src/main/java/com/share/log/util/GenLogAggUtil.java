@@ -39,7 +39,7 @@ public class GenLogAggUtil {
                     field.set(logAgg, value);
                 }
             }
-            return JSON.toJSONString(logAgg, true);
+            return JSON.toJSONString(logAgg);
         } catch (Exception e) {
             e.printStackTrace();
         }
