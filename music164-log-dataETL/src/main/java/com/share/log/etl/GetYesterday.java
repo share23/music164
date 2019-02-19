@@ -10,7 +10,7 @@ import java.util.Date;
 /**
  * @user: share
  * @date: 2019/2/19
- * @description: UDF函数获取昨天的日期
+ * @description:
  */
 @Description(
         name = "getYesterday",
