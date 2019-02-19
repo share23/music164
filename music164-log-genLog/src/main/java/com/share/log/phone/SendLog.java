@@ -11,7 +11,7 @@ import java.util.Random;
 /**
  * @user: share
  * @date: 2019/2/18
- * @description:
+ * @description: 发送日志到nginx服务器
  */
 public class SendLog {
     public static void main(String[] args) throws Exception {
@@ -43,7 +43,7 @@ public class SendLog {
             os.flush();
             os.close();
             System.out.println(conn.getResponseCode());
-            //Thread.sleep(3000);
+            Thread.sleep(3000);
 
         }
 
