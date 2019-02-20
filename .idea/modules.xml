@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/music164.iml" filepath="$PROJECT_DIR$/music164.iml" />
       <module fileurl="file://$PROJECT_DIR$/music164-log-dataETL/music164-log-dataETL.iml" filepath="$PROJECT_DIR$/music164-log-dataETL/music164-log-dataETL.iml" />
       <module fileurl="file://$PROJECT_DIR$/music164-log-genLog/music164-log-genLog.iml" filepath="$PROJECT_DIR$/music164-log-genLog/music164-log-genLog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/music164-log-userdraw/music164-log-userdraw.iml" filepath="$PROJECT_DIR$/music164-log-userdraw/music164-log-userdraw.iml" />
     </modules>
   </component>
 </project>

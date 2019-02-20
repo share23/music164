@@ -18,11 +18,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="music164-log-dataETL" />
         <module name="music164-log-genLog" />
+        <module name="music164-log-userdraw" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="music164-log-dataETL" target="1.5" />
       <module name="music164-log-genLog" target="7" />
+      <module name="music164-log-userdraw" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
