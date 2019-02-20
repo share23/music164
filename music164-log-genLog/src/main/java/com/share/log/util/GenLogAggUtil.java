@@ -21,7 +21,6 @@ public class GenLogAggUtil {
             Map<String, List<String>> map = DictUtil.map;
 
             AppLogAggEntity logAgg = new AppLogAggEntity();
-            logAgg.setDeviceId(deviceID);
 
             //将logAgg赋值
             logAgg.setAppErrorLogs(genLogList(AppErrorLog.class));
@@ -39,6 +38,9 @@ public class GenLogAggUtil {
                     field.set(logAgg, value);
                 }
             }
+
+            logAgg.setDeviceId(deviceID);
+
             return JSON.toJSONString(logAgg);
         } catch (Exception e) {
             e.printStackTrace();
@@ -77,11 +79,11 @@ public class GenLogAggUtil {
         return null;
     }
 
-    public static void main(String[] args) {
-        while (true) {
-            System.out.println(genLogAgg("device0001"));
-        }
-    }
+//    public static void main(String[] args) {
+//        while (true) {
+//            System.out.println(genLogAgg("device0001"));
+//        }
+//    }
 
 
 }
